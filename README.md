@@ -1,12 +1,6 @@
 ### Glad you're here on my GitHub! Let’s build something awesome together! 💻✨
 
 ---
- 
-### 백엔드 개발자를 꿈꾸는 대학생, 재민입니다! 🚀  
-
-💡 백엔드 개발에 관심이 많고, 다양한 기술을 익히며 성장하는 중입니다.  
-
----
 
 ### 🔥 **Tech Stack**  
 
