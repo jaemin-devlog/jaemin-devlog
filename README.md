@@ -31,11 +31,3 @@
   <img src="https://img.shields.io/badge/Spring%20Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white"/>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
 </p>
-
----
-
-### 🎯 **2025 Goals**
-- Mastering Backend Development with **Spring Boot**  
-- Developing a **Room Review Website**  
-- Enhancing Problem-Solving Skills through **Baekjoon Algorithm Practice**  
----
