@@ -62,24 +62,8 @@
 
 <br>
 
-<div align="center">
-  <img src="https://img.shields.io/badge/intellij idea-2C2C32.svg?style=for-the-badge&logo=intellijidea&logoColor=white" />&nbsp
-  <img src="https://img.shields.io/badge/eclipse ide-2C2C32.svg?style=for-the-badge&logo=eclipseide&logoColor=white" />&nbsp
-</div>
-
-<br>
-
 <h3 align="center">📫 Contact 📫</h3>
 <div align="center">
-  <a href="https://velog.io/@iyeojae1/">
-    <img src="https://img.shields.io/badge/Velog-1EBC8F?style=for-the-badge&logo=velog&logoColor=white" />&nbsp
-  </a>
-  <a href="https://www.instagram.com/iyeojae1/">
-    <img src="https://img.shields.io/badge/instagram-FF4154?style=for-the-badge&logo=instagram&logoColor=white" />&nbsp
-  </a>
-  <a href="mailto:iyeojae1@gmail.com">
-    <img
-      src="https://img.shields.io/badge/iyeojae1@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>&nbsp
   </a>
 </div>
 
