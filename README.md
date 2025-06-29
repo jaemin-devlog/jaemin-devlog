@@ -84,7 +84,7 @@
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/jaemin-devlog/jaemin-devlog/output/snake.svg" alt="Snake animation" />
+<!--<img src="https://raw.githubusercontent.com/jaemin-devlog/jaemin-devlog/output/snake.svg" alt="Snake animation" />-->
 
 
 ###
