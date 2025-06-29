@@ -59,11 +59,16 @@
   <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
 </div>
 
-
 <br>
 
 <h3 align="center">📫 Contact 📫</h3>
+
 <div align="center">
+  <a href="https://jaemin-devlog.github.io/" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub%20Blog-222222?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Blog" />
+  </a>
+  <a href="https://www.instagram.com/jm._02._?igsh=NGE4ZDFsbHUxdGI%3D&utm_source=qr" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
 </div>
 
