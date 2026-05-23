@@ -1,77 +1,112 @@
 <div align="center">
-  <img src="https://blog.kakaocdn.net/dn/drq9jc/btr5DUtmPbq/0SeiEvANaE5tVcWQ62kftk/img.gif" />
-</div>
-<!--타이틀 부분-->
-<div align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Nanum+Pen+Script&duration=2000&pause=1000&center=true&vCenter=true&height=25&lines=%EA%B7%80%EC%97%BD%EA%B3%A0+%EC%82%AC%EB%82%98%EC%9A%B4+%EC%82%AC%EC%9E%90+%ED%95%9C%EB%A7%88%EB%A6%AC" alt="Typing SVG" /></a>
-</div>
 
-<h3 align="center">✨ Language ✨</h3>
-<div align="center">
-  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2b%2b&logoColor=white" />
-  <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-</div>
+# 정재민
+
+**Java / Spring Boot Backend Developer**
+
+사용자 불편을 기능 요구사항으로 정리하고,  
+실시간 처리·인증/권한·데이터 파이프라인을 백엔드 구조로 구현합니다.
 
 <br>
 
-<h3 align="center">🛠 Back-End 🛠</h3>
-<div align="center">
-  <img src="https://img.shields.io/badge/JAVA-007396?style=for-the-badge&logo=OpenJDK&logoColor=white" />
-  <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" />
-  <img src="https://img.shields.io/badge/Spring Security-11557C?style=for-the-badge&logo=springsecurity&logoColor=white" />
-  <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" />
-  <img src="https://img.shields.io/badge/OAuth2-4285F4?style=for-the-badge&logo=oauth&logoColor=white" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" />
+<a href="https://github.com/jaemin-devlog">
+  <img src="https://img.shields.io/badge/GitHub-jaemin--devlog-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+</a>
+<a href="https://jaemin-devlog.github.io/">
+  <img src="https://img.shields.io/badge/Blog-GitHub%20Pages-222222?style=flat-square&logo=githubpages&logoColor=white" alt="Blog" />
+</a>
+
 </div>
 
-<br>
+---
 
-<h3 align="center">🗄️ Database 🗄️</h3>
-<div align="center">
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" />
-</div>
+## Backend Focus
 
-<br>
+- **Realtime**: Redis Queue, Distributed Lock, WebSocket/STOMP, Redis Pub/Sub
+- **Notification**: FCM, Outbox Pattern, retry, duplicate prevention
+- **Auth / Security**: OAuth2, JWT, HttpOnly Cookie, owner validation
+- **Data Pipeline**: WebClient, Scheduler, Apache POI, Flask integration
+- **Test**: JUnit5, Mockito, AssertJ
 
-<h3 align="center">⚙️ Tools ⚙️</h3>
-<div align="center">
-  <img src="https://img.shields.io/badge/IntelliJ IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white" />
-  <img src="https://img.shields.io/badge/Eclipse IDE-2C2255?style=for-the-badge&logo=eclipseide&logoColor=white" />
-  <img src="https://img.shields.io/badge/VS Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
-  <img src="https://img.shields.io/badge/Visual Studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white" />
-  <img src="https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=white" />
-</div>
+---
 
-<br>
+## Featured Projects
 
-<h3 align="center">📚 Studying 📚</h3>
-<div align="center">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
-</div>
+### AirConnect
 
-<br>
+교내 소셜 매칭 웹 서비스의 한계를 바탕으로 실시간 그룹매칭·채팅·알림 경험을 확장한 친구찾기 앱 서비스
 
-<h3 align="center">📫 Contact 📫</h3>
+- Redis 큐, 분산 락, queueToken 기반 2:2/3:3 그룹매칭
+- WebSocket/STOMP, Redis Pub/Sub 기반 채팅과 읽음/미읽음 처리
+- FCM Outbox 기반 알림 전송, 재시도, 중복 방지
+- JUnit5, Mockito, AssertJ 기반 주요 예외 흐름 검증
 
-<div align="center">
-  <a href="https://jaemin-devlog.github.io/" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub%20Blog-222222?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Blog" />
-  </a>
-  <a href="https://www.instagram.com/jm._02._?igsh=NGE4ZDFsbHUxdGI%3D&utm_source=qr" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-  </a>
-</div>
+`Spring Boot` `Redis` `WebSocket/STOMP` `FCM` `MySQL` `JUnit5`
 
-<br>
+[GitHub](https://github.com/jaemin-devlog/AirConnect) · [App Store](https://apps.apple.com/kr/app/%EC%97%90%EC%96%B4%EC%BB%A4%EB%84%A5%ED%8A%B8-airconnect/id6761365188)
 
+### MoneyWay
 
-<br clear="both">
+예산 기반 AI 여행 코스, 장바구니, 계획 저장, 커뮤니티 공유를 연결한 제주 여행 플래닝 서비스
 
-<img src="https://raw.githubusercontent.com/jaemin-devlog/jaemin-devlog/output/snake.svg" alt="Snake animation" />
+- Kakao OAuth2, JWT Access/Refresh, HttpOnly Cookie, Redis TTL 기반 인증
+- owner 검증과 idempotent add로 중복 장소 추가·타 사용자 데이터 접근 방지
+- Apache POI 배치 조회/saveAll 구조로 엑셀 데이터 적재 병목 개선
+- Docker Compose, Nginx, GCP Ubuntu 배포 환경 구성
 
+`Spring Boot` `OAuth2/JWT` `MySQL` `Redis` `Apache POI` `Docker`
 
-###
+[GitHub](https://github.com/jaemin-devlog/MoneyWay) · [Service](https://moneyway.jeju.kr/)
+
+### Seosan-issue
+
+분산된 서산 지역 공공 정보를 수집하고 요약 API와 연동하는 지역 정보 파이프라인 서비스
+
+- 서산시청·복지·문화관광·읍면동 게시판 목록/상세 크롤링
+- Flask 크롤러/요약 API와 Spring Boot 도메인 API 분리
+- WebClient 내부 연동, link unique UPSERT, Scheduler 기반 중복 저장 방지
+
+`Spring Boot` `Flask` `WebClient` `Scheduler` `MySQL`
+
+[GitHub](https://github.com/jaemin-devlog/seosan-issue) · [Service](https://seosan-issue.web.app/)
+
+---
+
+## Tech Stack
+
+<p>
+  <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" />
+  <img src="https://img.shields.io/badge/Spring%20Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white" alt="Spring Security" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
+  <img src="https://img.shields.io/badge/WebSocket-2B2B2B?style=flat-square" alt="WebSocket" />
+  <img src="https://img.shields.io/badge/FCM-FFCA28?style=flat-square&logo=firebase&logoColor=black" alt="FCM" />
+  <img src="https://img.shields.io/badge/JUnit5-25A162?style=flat-square&logo=junit5&logoColor=white" alt="JUnit5" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+</p>
+
+<details>
+<summary>More Stack</summary>
+
+### Backend
+
+`Java` `Spring Boot` `Spring Data JPA` `Spring Security` `REST API`
+
+### Auth / Security
+
+`OAuth2` `JWT` `HttpOnly Cookie`
+
+### Async / Realtime
+
+`WebSocket` `STOMP` `Redis Pub/Sub` `Redis Queue` `FCM` `Outbox Pattern`
+
+### Data / Integration
+
+`WebClient` `Scheduler` `Apache POI` `Flask`
+
+### Test / Infra
+
+`JUnit5` `Mockito` `AssertJ` `Docker` `Nginx` `GCP Ubuntu`
+
+</details>
