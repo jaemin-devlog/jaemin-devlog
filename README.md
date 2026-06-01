@@ -12,19 +12,15 @@
   <img src="https://img.shields.io/badge/Email-jjm0203311%40naver.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
 </a>
 
-<br><br>
-
-`Java` `Spring Boot` `JPA` `MySQL` `Redis` `WebSocket` `FCM` `Docker`
-
 </div>
 
 <br>
 
-## Tech Stack
+<h2 align="center">Tech Stack</h2>
 
-<table>
+<table align="center">
   <tr>
-    <td><b>Backend</b></td>
+    <td align="center"><b>Backend</b></td>
     <td>
       <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white" />
       <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
@@ -33,14 +29,14 @@
     </td>
   </tr>
   <tr>
-    <td><b>Database</b></td>
+    <td align="center"><b>Database</b></td>
     <td>
       <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
       <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
     </td>
   </tr>
   <tr>
-    <td><b>Realtime / Async</b></td>
+    <td align="center"><b>Realtime / Async</b></td>
     <td>
       <img src="https://img.shields.io/badge/WebSocket-010101?style=flat-square&logo=socketdotio&logoColor=white" />
       <img src="https://img.shields.io/badge/STOMP-59666C?style=flat-square" />
@@ -49,7 +45,7 @@
     </td>
   </tr>
   <tr>
-    <td><b>Infra / Test</b></td>
+    <td align="center"><b>Infra / Test</b></td>
     <td>
       <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
       <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white" />
@@ -59,10 +55,3 @@
     </td>
   </tr>
 </table>
-
-<br>
-
-## Contact
-
-- Blog: [jaemin-devlog.github.io](https://jaemin-devlog.github.io/)
-- Email: [jjm0203311@naver.com](mailto:jjm0203311@naver.com)
