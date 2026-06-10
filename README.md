@@ -5,8 +5,6 @@
 <a href="https://github.com/jaemin-devlog">
   <img src="https://img.shields.io/badge/GitHub-jaemin--devlog-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
 </a>
-<a href="https://jaemin-devlog.github.io/">
-  <img src="https://img.shields.io/badge/Blog-GitHub%20Pages-222222?style=flat-square&logo=githubpages&logoColor=white" alt="Blog" />
 </a>
 <a href="mailto:jjm0203311@naver.com">
   <img src="https://img.shields.io/badge/Email-jjm0203311%40naver.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
