@@ -1,13 +1,16 @@
 <div align="center">
 
-# 정재민 | Backend Developer
+![header](https://capsule-render.vercel.app/api?type=rect&height=105&color=0:1E293B,100:0F766E&text=%EC%A0%95%EC%9E%AC%EB%AF%BC&fontColor=FFFFFF&fontSize=30&fontAlignY=40&desc=Backend%20Developer&descSize=15&descAlignY=68)
 
 **실패 상황에서도 데이터 정합성과 사용자 경험을 지키는 백엔드를 설계합니다.**
 
 Java와 Spring Boot를 중심으로 인증, 데이터 모델링, 비동기 처리와 복구 가능한 시스템을 구현하고 있습니다.
 
-[![Email](https://img.shields.io/badge/Email-jjm0203311%40naver.com-03C75A?style=flat-square&logo=naver&logoColor=white)](mailto:jjm0203311@naver.com)
-[![GitHub](https://img.shields.io/badge/GitHub-jaemin--devlog-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/jaemin-devlog)
+![Java & Spring Boot](https://img.shields.io/badge/Java%20%26%20Spring%20Boot-334155?style=flat-square&logo=springboot&logoColor=white)
+![Data Integrity](https://img.shields.io/badge/Data%20Integrity-0F766E?style=flat-square)
+![Failure Recovery](https://img.shields.io/badge/Failure%20Recovery-2563EB?style=flat-square)
+
+[![Email](https://img.shields.io/badge/Email-jjm0203311%40naver.com-0F766E?style=flat-square&logo=naver&logoColor=white)](mailto:jjm0203311@naver.com)
 
 </div>
 
@@ -62,4 +65,3 @@ Java와 Spring Boot를 중심으로 인증, 데이터 모델링, 비동기 처�
 ## Contact
 
 - Email: [jjm0203311@naver.com](mailto:jjm0203311@naver.com)
-- GitHub: [github.com/jaemin-devlog](https://github.com/jaemin-devlog)
