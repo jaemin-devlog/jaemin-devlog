@@ -1,67 +1,112 @@
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=rect&height=105&color=0:1E293B,100:0F766E&text=%EC%A0%95%EC%9E%AC%EB%AF%BC&fontColor=FFFFFF&fontSize=30&fontAlignY=40&desc=Backend%20Developer&descSize=15&descAlignY=68)
+![Backend Developer](https://capsule-render.vercel.app/api?type=waving&height=180&color=0:0F172A,50:0F766E,100:2563EB&text=Backend%20Developer&fontColor=FFFFFF&fontSize=38&fontAlignY=38&desc=Reliable%20systems%20through%20verification&descSize=15&descAlignY=59)
 
-**실패 상황에서도 데이터 정합성과 사용자 경험을 지키는 백엔드를 설계합니다.**
+### 왜 이렇게 동작해야 하는지 이해한 뒤 구현합니다.
 
-Java와 Spring Boot를 중심으로 인증, 데이터 모델링, 비동기 처리와 복구 가능한 시스템을 구현하고 있습니다.
+정상 흐름뿐 아니라 실패·재시도·복구 상황에서도  
+데이터와 사용자 흐름이 유지되는 백엔드를 고민합니다.
 
-![Java & Spring Boot](https://img.shields.io/badge/Java%20%26%20Spring%20Boot-334155?style=flat-square&logo=springboot&logoColor=white)
-![Data Integrity](https://img.shields.io/badge/Data%20Integrity-0F766E?style=flat-square)
-![Failure Recovery](https://img.shields.io/badge/Failure%20Recovery-2563EB?style=flat-square)
-
-[![Email](https://img.shields.io/badge/Email-jjm0203311%40naver.com-0F766E?style=flat-square&logo=naver&logoColor=white)](mailto:jjm0203311@naver.com)
+![Java](https://img.shields.io/badge/Java-334155?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![Data Integrity](https://img.shields.io/badge/Data_Integrity-0F766E?style=flat-square)
+![Failure Recovery](https://img.shields.io/badge/Failure_Recovery-2563EB?style=flat-square)
+![AI Verification](https://img.shields.io/badge/AI_Verification-7C3AED?style=flat-square)
 
 </div>
 
-## About
+<br />
 
-- 기능이 성공할 때뿐 아니라 **실패·재시도·복구 과정에서도 데이터가 안전한 구조**에 관심이 있습니다.
-- 트랜잭션 경계, 비동기 Worker, 소유권 격리와 인증처럼 서비스의 신뢰성을 결정하는 문제를 구체적인 테스트로 확인합니다.
-- 구현 내용과 문서가 어긋나지 않도록 소스 코드, migration, 테스트와 실행 환경을 함께 관리합니다.
-- 현재 오픈소스 Career Intelligence Engine인 **PRIZM**을 개발하고 있습니다.
+## About Me
 
-## Selected Projects
+- 문제를 작은 단위로 나누고, 정상 상황뿐 아니라 실패와 예외 상황까지 함께 고려합니다.
+- 기술 선택과 개선 결과는 테스트와 측정 가능한 근거를 바탕으로 판단합니다.
+- 새로운 기술과 AI를 적극적으로 활용하지만, 최종 판단은 직접 검증한 결과를 기준으로 내립니다.
+- 구현에서 끝내지 않고 실제로 배포하고 운영할 수 있는 상태까지 완성하는 것을 중요하게 생각합니다.
+
+<br />
+
+## Featured Projects
 
 ### [PRIZM](https://github.com/jaemin-devlog/PRIZM)
 
-> 흩어진 커리어 문서를 버전별로 관리하고, 등록된 원문 근거를 검색하는 오픈소스 Career Intelligence Engine
+![AI Search](https://img.shields.io/badge/AI_Document_Search-0F766E?style=flat-square)
+![Open Source](https://img.shields.io/badge/Open_Source-334155?style=flat-square)
+![In Progress](https://img.shields.io/badge/In_Progress-F59E0B?style=flat-square)
 
-- 새 문서 버전의 처리가 완료되기 전까지 기존 `ACTIVE` 버전을 유지하고, 검증 완료 시 `active_version_id`를 원자적으로 전환했습니다.
-- 파일 삭제를 요청 트랜잭션에서 분리해 lease, retry/backoff, claim-version fencing과 복구를 갖춘 Cleanup Worker로 구현했습니다.
-- 사용자 소유권과 `ACTIVE` 버전을 기준으로 PostgreSQL `pgvector` exact cosine 검색을 구성했습니다.
-- TXT/PDF 업로드, 문서 CRUD·버전 관리, PDF 미리보기와 최대 5개 Career Evidence 검색을 React Reference App으로 제공합니다.
+> 경력 문서를 분석하고 관련 원문 근거를 찾아주는 AI 문서 검색 서비스
 
-`Java 17` `Spring Boot` `PostgreSQL` `pgvector` `Flyway` `React` `TypeScript` `Docker`
+- 검색 실패 25건을 분석해 개발 평가셋의 Top-1 Accuracy를 **57.14% → 82.14%**로 개선했습니다. 이후 별도 Holdout에서 기준 미달을 확인해 과적합된 개선은 실제 검색에 반영하지 않았습니다.
+- 문서 추출·임베딩 완료 후에만 검색 버전을 전환하고, Lease·Heartbeat를 적용해 장시간 작업의 실패와 재시작에 대응했습니다.
+- 검색 기능을 읽기 전용 MCP 도구로 제공하면서 JWT 인증과 사용자별 데이터 격리를 유지하고 실환경 E2E로 검증했습니다.
+
+`Java 17` `Spring Boot` `PostgreSQL` `pgvector` `Flyway` `Ollama` `MCP` `Docker`
+
+---
 
 ### [AirConnect](https://github.com/jaemin-devlog/AirConnect)
 
-> 1:1 소개팅과 다대다 과팅을 지원하는 실시간 매칭 서비스
+![Mobile Service](https://img.shields.io/badge/Mobile_Service-2563EB?style=flat-square)
+![Production](https://img.shields.io/badge/Production-16A34A?style=flat-square)
+![Realtime](https://img.shields.io/badge/Realtime-7C3AED?style=flat-square)
 
-- OAuth2, JWT와 Spring Security를 이용한 인증 흐름을 구성했습니다.
-- WebSocket/STOMP 기반 실시간 채팅과 Redis를 활용한 상태 관리를 구현했습니다.
-- 알림 유실을 줄이기 위해 FCM 전송과 Outbox Worker 구조를 적용했습니다.
-- Docker Compose, Nginx와 GitHub Actions를 이용해 실행·배포 환경을 구성했습니다.
+> 학교 인증 기반 친구 찾기·그룹 매칭 모바일 서비스
 
-`Java 17` `Spring Boot` `MySQL` `Redis` `WebSocket` `STOMP` `FCM` `Docker`
+- Redis Queue로 후보를 탐색하고 DB Row Lock과 Unique Constraint로 최종 상태를 검증해 중복 매칭을 차단했습니다.
+- DB를 기준으로 Redis Queue를 복구하고, FCM 전송을 Outbox Worker로 분리해 외부 알림 실패를 격리했습니다.
+- Gabia Ubuntu 서버에 백엔드를 배포해 모바일 앱의 운영 API를 제공하고 있습니다.
 
-## Engineering Focus
+[![App Store](https://img.shields.io/badge/App_Store-000000?style=for-the-badge&logo=apple&logoColor=white)](https://apps.apple.com/kr/app/%EC%97%90%EC%96%B4%EC%BB%A4%EB%84%A5%ED%8A%B8-airconnect/id6761365188)
+[![Google Play](https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=googleplay&logoColor=white)](https://play.google.com/store/apps/details?id=org.airconnect.hsu&hl=ko)
 
-- **Data Integrity** — transaction, versioning, migration, ownership
-- **Failure Recovery** — durable job, retry/backoff, lease, fencing, idempotency
-- **Backend Security** — JWT, OAuth2, Spring Security, owner-scoped access
-- **Verification** — JUnit 5, Mockito, Testcontainers, integration test, CI
+`Java 17` `Spring Boot` `MySQL` `Redis` `WebSocket/STOMP` `FCM` `Ubuntu`
+
+---
+
+### [MoneyWay](https://github.com/jaemin-devlog/MoneyWay)
+
+![Team Lead](https://img.shields.io/badge/Team_Lead-D97706?style=flat-square)
+![Award](https://img.shields.io/badge/Award-Winner-F59E0B?style=flat-square)
+![Cloud](https://img.shields.io/badge/Cloud_Deployment-4285F4?style=flat-square)
+
+> 예산에 맞춰 제주 여행 일정을 만드는 서비스
+
+- 5인 팀의 팀장으로 서비스 기획, 백엔드 개발, 요구사항과 API 범위 조율을 담당했습니다.
+- 이메일 로그인과 Kakao OAuth2를 통합하고 여행 계획에 사용자별 소유권 검증을 적용했습니다.
+- GCP Ubuntu 서버에 백엔드를 배포하고 Nginx를 설정했습니다.
+- 관광데이터 활용 공모전 **우수상·한국관광공사 사장상**을 수상했습니다.
+
+`Java 21` `Spring Boot` `Spring Security` `OAuth2` `JWT` `MySQL` `GCP` `Nginx`
+
+<br />
 
 ## Tech Stack
 
-| Area | Technologies |
-|---|---|
-| Backend | Java, Spring Boot, Spring Security, JPA/Hibernate, Flyway |
-| Data & Search | PostgreSQL, pgvector, MySQL, Redis |
-| Async & Realtime | Worker, Outbox Pattern, WebSocket, STOMP, FCM |
-| Infra & Test | Docker, Nginx, GitHub Actions, JUnit 5, Mockito, Testcontainers |
-| Frontend | React, TypeScript, Vite |
+### Backend
 
-## Contact
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white)
+![JPA](https://img.shields.io/badge/JPA-59666C?style=flat-square)
 
-- Email: [jjm0203311@naver.com](mailto:jjm0203311@naver.com)
+### Data & Search
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![pgvector](https://img.shields.io/badge/pgvector-336791?style=flat-square)
+
+### Infrastructure
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white)
+
+### AI & Realtime
+
+![Embedding](https://img.shields.io/badge/Embedding-7C3AED?style=flat-square)
+![Vector Search](https://img.shields.io/badge/Vector_Search-0F766E?style=flat-square)
+![MCP](https://img.shields.io/badge/MCP-334155?style=flat-square)
+![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=flat-square)
+![FCM](https://img.shields.io/badge/FCM-FFCA28?style=flat-square&logo=firebase&logoColor=black)
